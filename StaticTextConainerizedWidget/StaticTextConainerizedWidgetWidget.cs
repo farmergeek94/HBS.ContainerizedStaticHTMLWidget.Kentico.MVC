@@ -1,8 +1,8 @@
 using Kentico.PageBuilder.Web.Mvc;
-using HBS.StaticHTMLConainerizedWidget.Kentico.MVC;
+using HBS.StaticTextConainerizedWidget.Kentico.MVC;
 
 // Registers the Widget, pointing to the View that is actually compiled and located in the StaticHTMLConainerizedWidget.View project.
-[assembly: RegisterWidget(StaticHTMLConainerizedWidgetProperties.IDENTIFIER, "Static Text", typeof(StaticHTMLConainerizedWidgetProperties), customViewName: "Widgets/_StaticHTMLConainerizedWidget", Description = "Containerized widget for entering static html", IconClass = "icon-l-text")]
+[assembly: RegisterWidget(StaticTextConainerizedWidgetProperties.IDENTIFIER, "Static Text", typeof(StaticTextConainerizedWidgetProperties), customViewName: "Widgets/_StaticTextConainerizedWidget", Description = "Containerized widget for entering static text", IconClass = "icon-l-text")]
 
 // FOR TESTING
 // You can change the registration to point to a local View (non compiled) in order to debug.  

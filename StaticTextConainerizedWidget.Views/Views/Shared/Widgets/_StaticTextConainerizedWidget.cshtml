@@ -1,0 +1,5 @@
+@using HBS.StaticTextConainerizedWidget.Kentico.MVC
+@model ComponentViewModel<StaticTextConainerizedWidgetProperties>
+@Html.PageBuilderContainerBefore(Model.Properties)
+@Html.Raw(Model.Properties.Text)
+@Html.PageBuilderContainerAfter(Model.Properties)

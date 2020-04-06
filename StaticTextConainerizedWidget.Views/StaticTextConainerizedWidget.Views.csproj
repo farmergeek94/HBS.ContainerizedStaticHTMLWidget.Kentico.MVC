@@ -12,8 +12,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HBS.StaticHTMLConainerizedWidget.Kentico.MVC.Views</RootNamespace>
-    <AssemblyName>HBS.StaticHTMLConainerizedWidget.Kentico.MVC.Views</AssemblyName>
+    <RootNamespace>HBS.StaticTextConainerizedWidget.Kentico.MVC.Views</RootNamespace>
+    <AssemblyName>HBS.StaticTextConainerizedWidget.Kentico.MVC.Views</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -330,9 +330,6 @@
     <Reference Include="Microsoft.Data.Edm, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Data.Edm.5.6.4\lib\net40\Microsoft.Data.Edm.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Data.OData, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Data.OData.5.6.4\lib\net40\Microsoft.Data.OData.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Data.Services.Client, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Data.Services.Client.5.6.4\lib\net40\Microsoft.Data.Services.Client.dll</HintPath>
     </Reference>
@@ -548,7 +545,6 @@
     <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
     </Reference>
-    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
@@ -563,7 +559,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Views\Shared\Widgets\_StaticHTMLConainerizedWidget.cshtml" />
+    <Content Include="Views\Shared\Widgets\_StaticTextConainerizedWidget.cshtml" />
     <Content Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -579,9 +575,9 @@
     <Folder Include="obj\Debug\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StaticHTMLConainerizedWidget\StaticHTMLConainerizedWidget.csproj">
+    <ProjectReference Include="..\StaticTextConainerizedWidget\StaticTextConainerizedWidget.csproj">
       <Project>{60d45549-bb62-4999-8f29-987b58b33127}</Project>
-      <Name>StaticHTMLConainerizedWidget</Name>
+      <Name>StaticTextConainerizedWidget</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

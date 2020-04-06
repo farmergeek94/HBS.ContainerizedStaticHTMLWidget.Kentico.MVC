@@ -6,11 +6,11 @@ using CMS;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Static HTML Containerized Widget")]
-[assembly: AssemblyDescription("Containerized Static HTML Widget for entering static HTML into a page builder section.")]
+[assembly: AssemblyTitle("Static Text Containerized Widget")]
+[assembly: AssemblyDescription("Containerized Static Text Widget for entering static text into a page builder section.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Heartland Business Systems")]
-[assembly: AssemblyProduct("HBS.StaticHTMLConainerizedWidget.Kentico.MVC")]
+[assembly: AssemblyProduct("HBS.StaticTextConainerizedWidget.Kentico.MVC")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
