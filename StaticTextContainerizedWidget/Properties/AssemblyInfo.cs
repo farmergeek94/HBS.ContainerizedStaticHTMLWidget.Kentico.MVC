@@ -10,7 +10,7 @@ using CMS;
 [assembly: AssemblyDescription("Containerized Static Text Widget for entering static text into a page builder section.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Heartland Business Systems")]
-[assembly: AssemblyProduct("HBS.StaticTextConainerizedWidget.Kentico.MVC")]
+[assembly: AssemblyProduct("HBS.StaticTextContainerizedWidget.Kentico.MVC")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -33,5 +33,5 @@ using CMS;
 //
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("12.29.0")]
-[assembly: AssemblyFileVersion("12.29.0")]
+[assembly: AssemblyVersion("12.29.1")]
+[assembly: AssemblyFileVersion("12.29.1")]
