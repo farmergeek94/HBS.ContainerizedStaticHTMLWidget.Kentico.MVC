@@ -12,6 +12,8 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>$description$</description>	
 		<releaseNotes>
+		12.29.2
+		Updated the widget name
 		12.29.1
 		Resolved an issue with the caste.core dependancy
 		12.29.0
