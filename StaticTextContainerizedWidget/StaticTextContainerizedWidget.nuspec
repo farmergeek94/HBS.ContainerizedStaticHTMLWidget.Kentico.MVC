@@ -12,6 +12,8 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>$description$</description>	
 		<releaseNotes>
+		12.29.3
+		Updated a reference
 		12.29.2
 		Updated the widget name
 		12.29.1
@@ -28,7 +30,7 @@
 	</metadata>
 	<files>
 		<!-- Include the compiled views dll -->
-		<file src="bin\HBS.StaticTextConainerizedWidget.Kentico.MVC.Views.dll" target = "lib\net461" />
+		<file src="bin\HBS.StaticTextContainerizedWidget.Kentico.MVC.Views.dll" target = "lib\net461" />
 		<file src=".\Content\Widgets\StaticTextContainerizedWidget\icon.png" target="Content\Widgets\StaticTextContainerizedWidget\" />
 
 		<!-- Sample of how to include this file in the Content of the Nuget, this would cause the SampleIncludeFile.txt to be copied to the SampleResource folder in the project you import the NuGet package in
